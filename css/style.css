@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, serif;
-	color: #333;
+	color: #000;
 	-webkit-user-select: none; /* Chrome/Safari */        
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+ */
@@ -44,7 +44,7 @@ p[data-action="lose"] {
 }
 
 .simon {
-	background: #fff;
+	background: #28aadc;
 	position: relative;
 	float: left;
 	margin-right: 3em;	
@@ -90,19 +90,19 @@ p[data-action="lose"] {
 }
 
 .blue {
-	background: dodgerblue;
+	background: #28aadc;
 	clip: rect(0px, 150px, 150px, 0px);
 	width: 300px;
 }
 
 .yellow {
-	background: #FEEF33;
+	background: #28aadc;
 	clip: rect(150px, 150px, 300px, 0px);
 	width: 300px;
 }
 
 .green {
-	background: #BEDE15;
+	background: #28aadc;
 	clip: rect(150px,300px, 300px, 150px);
 	width: 296px;
 }
@@ -117,13 +117,13 @@ p[data-action="lose"] {
 	font-size: 1.4em;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border-radius: 10px 10px 10px 10px;
-	background: #6DABE8;
+	background: #28aadc;
 	border: none;
 	padding: 0.3em 0.6em;
 }
 
 .game-info button:hover {
-	background: #78BCFF;
+	background: #28aadc;
 }
 
 .game-options h2 {
